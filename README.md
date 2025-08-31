@@ -211,3 +211,23 @@ Each of these technologies works together to create a full-stack application tha
   - `property_id` in the **Property** and **Booking** tables  
   - `booking_id` in the **Booking** and **Payment** tables  
 
+
+## Feature Breakdown
+
+### 1. User Management  
+The platform allows users to register, log in, and manage their profiles securely. Authentication and authorization ensure that different roles (guest, host, admin) have the appropriate level of access and functionality.
+
+### 2. Property Management  
+Hosts can list properties by adding details such as name, description, location, price per night, and photos. This feature enables hosts to showcase their accommodations and manage updates to their listings.
+
+### 3. Booking System  
+Guests can browse available properties and make bookings for specific dates. The system calculates total costs, manages availability, and ensures that bookings are linked to both the property and the user.
+
+### 4. Payment Processing  
+Integrated payment functionality allows guests to pay for bookings using secure methods (e.g., credit card, PayPal, Stripe). Each payment is tied to a booking, ensuring smooth financial transactions and accurate tracking.
+
+### 5. Review System  
+Guests can leave reviews and ratings for properties they have stayed in. This builds trust within the community, helping future guests make informed decisions and providing valuable feedback to hosts.
+
+### 6. Messaging System  
+Users (hosts and guests) can communicate directly through the platform via a secure messaging system. This enhances transparency
