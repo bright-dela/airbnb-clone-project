@@ -88,3 +88,33 @@ Designs wireframes, prototypes, and user flows. Ensures the product is intuitive
 
 ---
 Each of these roles plays a critical part in delivering a production-ready, scalable web application. Together, they ensure the project is functional, secure, and user-centered.
+
+
+## Technology Stack
+
+The Airbnb Clone project is built using a modern technology stack that ensures scalability, performance, and maintainability. Below are the key technologies and their roles in the project:
+
+### 1. Django
+A Python web framework that powers the backend of the application. It helps in building RESTful APIs, handling authentication, and managing server-side logic efficiently.
+
+### 2. Django REST Framework (DRF)
+An extension of Django that simplifies the process of creating robust and secure REST APIs. It enables smooth communication between the frontend and backend.
+
+### 3. PostgreSQL
+A powerful relational database used to store structured data such as users, bookings, listings, and reviews. PostgreSQL ensures data integrity and supports complex queries.
+
+### 4. GraphQL
+An alternative query language for APIs that allows clients to request only the data they need. This makes the application more efficient and flexible compared to traditional REST endpoints.
+
+### 5. Docker
+Used for containerization, making it easier to package the application and run it consistently across different environments (development, testing, and production).
+
+### 6. Git & GitHub
+Version control tools used to manage code changes and collaborate with the team. GitHub serves as the central repository for storing and reviewing project code.
+
+### 7. HTML, CSS, and JavaScript
+Core web technologies for building the frontend. They ensure that the user interface is interactive, responsive, and visually appealing.
+
+---
+
+Each of these technologies works together to create a full-stack application that is scalable, secure, and user-friendly.
