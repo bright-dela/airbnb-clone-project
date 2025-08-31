@@ -57,3 +57,34 @@ By completing this project, you will:
 - Understand API security principles.  
 - Learn how to integrate technologies in a unified ecosystem.  
 - Build confidence in handling large-scale projects similar to industry standards.  
+
+## Team Roles
+
+Building a scalable application like the Airbnb Clone requires a collaborative effort across multiple specialized roles. Each role contributes unique skills and responsibilities to ensure the success of the project.
+
+### 1. Backend Developer
+Responsible for designing and implementing the server-side logic, APIs, and integrations with the database. Ensures data flows correctly between the frontend and backend systems.
+
+### 2. Frontend Developer
+Focuses on creating the user interface and user experience of the platform. Implements responsive designs and connects with backend APIs to display data effectively.
+
+### 3. Database Administrator (DBA)
+Designs, manages, and optimizes the relational database structure. Ensures data integrity, security, and efficient query performance across the system.
+
+### 4. DevOps Engineer
+Sets up and manages CI/CD pipelines, deployment environments, and containerization (e.g., Docker). Responsible for system reliability, scalability, and automation.
+
+### 5. Security Engineer
+Implements and monitors security measures such as authentication, authorization, data encryption, and secure API practices to safeguard user data.
+
+### 6. Project Manager
+Coordinates team activities, defines timelines, and ensures that milestones are met. Facilitates communication and keeps the project aligned with objectives.
+
+### 7. QA Engineer (Tester)
+Responsible for testing the application to identify and report bugs. Ensures the system meets functional and non-functional requirements before deployment.
+
+### 8. UI/UX Designer
+Designs wireframes, prototypes, and user flows. Ensures the product is intuitive, visually appealing, and user-friendly.
+
+---
+Each of these roles plays a critical part in delivering a production-ready, scalable web application. Together, they ensure the project is functional, secure, and user-centered.
