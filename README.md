@@ -231,3 +231,31 @@ Guests can leave reviews and ratings for properties they have stayed in. This bu
 
 ### 6. Messaging System  
 Users (hosts and guests) can communicate directly through the platform via a secure messaging system. This enhances transparency
+
+
+
+## API Security
+
+Securing the backend APIs is critical to protecting sensitive user data, ensuring safe financial transactions, and maintaining trust in the platform. The following measures will be implemented:
+
+### 1. Authentication  
+Only verified users can access protected API endpoints. Authentication ensures that requests are tied to real user identities, preventing unauthorized access and safeguarding personal information like login details and booking history.
+
+### 2. Authorization  
+Different user roles (e.g., guest, host, admin) will have controlled levels of access to resources. Authorization ensures that users can only perform actions they are permitted to—for example, a guest cannot edit another host’s property listing.
+
+### 3. Data Encryption (HTTPS & Sensitive Data)  
+All data transmitted between the client and server will use HTTPS to prevent interception by malicious actors. Sensitive data like passwords and payment details will be encrypted and never stored in plain text, protecting users against leaks and fraud.
+
+### 4. Rate Limiting & Throttling  
+To protect the APIs from abuse and denial-of-service (DoS) attacks, requests will be limited per user/IP within a set timeframe. This ensures stability, availability, and fair usage of resources.
+
+### 5. Input Validation & Sanitization  
+All incoming requests will be validated to prevent injection attacks (e.g., SQL injection, XSS). This ensures that only clean and expected data is processed by the backend.
+
+### Why Security Matters  
+- **User Data Protection**: Ensures sensitive information like emails, passwords, and personal details remain private.  
+- **Payment Security**: Protects financial transactions from fraud and unauthorized access.  
+- **Platform Trust**: Strong security builds user confidence, making the platform reliable and safe to use.  
+- **System Stability**: Prevents attacks that could crash or slow down the system, ensuring availability for legitimate users.  
+
